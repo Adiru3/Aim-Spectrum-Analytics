@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title">Aim Biomechanics: 100% Coverage | Ultimate Research by Adiru</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Fundamental deconstruction of aiming biomechanics. Analysis of CS2, Overwatch 2, and Apex Legends for 100% coverage of neuromotor control spectrums. Full research report by Adiru (amazingb01).">
+    <meta name="author" content="Adiru (amazingb01)">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Aim Biomechanics & Engineering: 100% Coverage">
+    <meta property="og:description"
+        content="Ultimate report on training cycles in commercial shooters. How three games solve all aim training needs.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://adiru3.github.io/AimMastery/">
+    <meta property="og:site_name" content="Aim Spectrum Analytics">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://adiru3.github.io/AimMastery/">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" id="schema-json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Aim Biomechanics & Engineering: 100% Coverage",
+      "description": "Deep research into commercial shooters to achieve absolute mouse control.",
+      "author": {
+        "@type": "Person",
+        "name": "Adiru"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aim Spectrum Analytics"
+      },
+      "datePublished": "2026-02-24"
+    }
+    </script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+</head>
+
+<body>
+
+    <header class="glass">
+        <div class="container">
+            <nav>
+                <div class="logo">AIM SPECTRUM</div>
+                <div class="lang-switch">
+                    <button onclick="setLang('en')" class="lang-btn" data-lang="en">EN</button>
+                    <button onclick="setLang('ru')" class="lang-btn" data-lang="ru">RU</button>
+                    <button onclick="setLang('uk')" class="lang-btn" data-lang="uk">UA</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container reveal">
+            <h1 data-i18n="hero_title">Aim Biomechanics & Engineering</h1>
+            <p class="subtitle" data-i18n="hero_subtitle">Fundamental analysis of commercial competitive environments
+                for absolute coverage of neuromotor control spectrums. 100% mechanics deconstruction.</p>
+            <div style="margin-top: 20px;">
+                <span class="glass"
+                    style="padding: 10px 20px; font-size: 0.8rem; border-color: var(--primary-color);">VERSION 2.0:
+                    ULTIMATE MASTER</span>
+            </div>
+        </section>
+
+        <!-- The Pillars Section -->
+        <section class="container reveal">
+            <h2 class="section-title" data-i18n="pillars_title">The 4 Pillars of Aiming</h2>
+            <div class="theory-grid">
+                <div class="glass theory-card">
+                    <div style="font-size: 2.5rem; margin-bottom: 15px;">🎯</div>
+                    <h3 data-i18n="static_title">Static Clicking</h3>
+                    <p data-i18n="static_desc">Trains "Stopping Power" — the ability to instantly dissipate the kinetic
+                        energy of the wrist. Critical for CS2 and Valorant.</p>
+                </div>
+                <div class="glass theory-card">
+                    <div style="font-size: 2.5rem; margin-bottom: 15px;">⚡</div>
+                    <h3 data-i18n="reactive_title">Reactive Tracking</h3>
+                    <p data-i18n="reactive_desc">Reaction to targets with zero inertia. Instant reading of direction
+                        changes. The best school is Overwatch 2.</p>
+                </div>
+                <div class="glass theory-card">
+                    <div style="font-size: 2.5rem; margin-bottom: 15px;">🌊</div>
+                    <h3 data-i18n="smooth_title">Smooth Tracking</h3>
+                    <p data-i18n="smooth_desc">Fluid target tracking without hand micro-tremors (jitter). High TTK in
+                        Apex Legends requires perfect geometric curves.</p>
+                </div>
+                <div class="glass theory-card">
+                    <div style="font-size: 2.5rem; margin-bottom: 15px;">🔄</div>
+                    <h3 data-i18n="switching_title">Target Switching</h3>
+                    <p data-i18n="switching_desc">High-speed fire transfer between multiple targets in chaos. Combines
+                        clicking and tracking skills.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Strategy Deck -->
+        <section class="container reveal">
+            <h2 class="section-title" data-i18n="decomposition_title">Discipline Decomposition</h2>
+            <p style="text-align: center; color: var(--text-dim); margin-top: -40px; margin-bottom: 40px;"
+                data-i18n="decomposition_subtitle">Select a game below for a detailed analysis of its role in your
+                training cycle.</p>
+
+            <div class="glass profile-deck" style="padding: 20px;">
+                <div class="profile-nav">
+                    <button class="profile-btn active" id="btn-valorant" onclick="updateProfile('valorant')">
+                        <h4>Valorant / CS2</h4>
+                        <p>Stopping Power & Precision</p>
+                    </button>
+                    <button class="profile-btn" id="btn-apex" onclick="updateProfile('apex')">
+                        <h4>Apex Legends</h4>
+                        <p>Smoothness & Momentum</p>
+                    </button>
+                    <button class="profile-btn" id="btn-ow2" onclick="updateProfile('ow2')">
+                        <h4>Overwatch 2</h4>
+                        <p>Pure Reaction & Chaos</p>
+                    </button>
+                </div>
+                <div class="profile-content-area" id="profile-content">
+                    <!-- Loaded via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Visualization Section -->
+        <section class="container reveal">
+            <h2 class="section-title" data-i18n="analytics_title">Analytics & Deep Data</h2>
+            <div class="chart-wrapper">
+                <div class="glass chart-container">
+                    <h3 style="margin-bottom: 20px; font-size: 1.2rem; color: var(--primary-color);"
+                        data-i18n="spectral_title">Spectral Coverage Analysis</h3>
+                    <canvas id="radarChart"></canvas>
+                </div>
+                <div class="glass chart-container">
+                    <h3 style="margin-bottom: 20px; font-size: 1.2rem; color: var(--secondary-color);"
+                        data-i18n="heatmap_title">Intensity Matrix (Heatmap)</h3>
+                    <div id="heatmapContainer" style="width: 100%; height: 100%;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Full Research Text -->
+        <section class="container reveal">
+            <div class="glass" style="padding: 60px; line-height: 1.8;">
+                <h2 style="margin-bottom: 30px; color: var(--primary-color);" data-i18n="research_phys_title">Physiology
+                    of Neuromotor Control</h2>
+                <p data-i18n="research_phys_p1">Modern paradigm requires a strict separation of skills. Isolated
+                    environments (KovaaK’s) lack key elements: visual noise and psychological pressure. My research
+                    proves that three games form a closed system: <strong>Stopping Power (CS2), Zero Inertia (OW2), and
+                        Momentum (Apex)</strong>.</p>
+
+                <h3 style="margin-top: 40px; color: var(--accent-color);" data-i18n="research_ttk_title">The TTK Factor
+                    (Time To Kill)</h3>
+                <p data-i18n="research_ttk_p1">In CS2, average headshot percentages reach 84.40%, requiring sub-pixel
+                    accuracy. Meanwhile, Apex Legends with its Recoil Smoothing forces the player to reflexively improve
+                    movement fluidity. Overwatch 2 kills predictive aiming — here you work on the edge of biological
+                    reaction.</p>
+
+                <div class="chart-container" style="margin-top: 40px; height: 350px;">
+                    <h3 style="margin-bottom: 20px; font-size: 1.2rem;" data-i18n="bar_chart_title">TTK Comparison (ms)
+                    </h3>
+                    <canvas id="barChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Verdict -->
+        <section class="container reveal">
+            <h2 class="section-title" data-i18n="verdict_title">Final Verdict</h2>
+            <div class="game-grid">
+                <div class="glass game-card" style="border-top: 4px solid var(--secondary-color);">
+                    <div style="font-size: 2.5rem; margin-bottom: 15px;">🎯</div>
+                    <h3 data-i18n="verdict_stability_title">For Stability</h3>
+                    <p data-i18n="verdict_stability_desc">Play Valorant. Focus on purity of movement and Stopping Power.
+                        Speed will follow.</p>
+                </div>
+                <div class="glass game-card" style="border-top: 4px solid var(--accent-color);">
+                    <div style="font-size: 2.5rem; margin-bottom: 15px;">🌊</div>
+                    <h3 data-i18n="verdict_smoothness_title">For Smoothness</h3>
+                    <p data-i18n="verdict_smoothness_desc">Apex Legends (R-99). No hand jitter. Only smooth, perfect
+                        geometric lines.</p>
+                </div>
+                <div class="glass game-card" style="border-top: 4px solid var(--primary-color);">
+                    <div style="font-size: 2.5rem; margin-bottom: 15px;">⚡</div>
+                    <h3 data-i18n="verdict_reaction_title">For Reaction</h3>
+                    <p data-i18n="verdict_reaction_desc">Overwatch 2. Chaos, instant angle changes, and zero inertia.
+                        The best reaction teacher.</p>
+                </div>
+            </div>
+            <div class="glass"
+                style="margin-top: 40px; padding: 30px; text-align: center; border: 1px solid var(--primary-color);">
+                <h3 style="color: var(--primary-color); margin: 0; font-size: 1.5rem;" data-i18n="coverage_achieved">
+                    100% COVERAGE ACHIEVED</h3>
+            </div>
+        </section>
+
+        <!-- About & Donate -->
+        <section class="container reveal" id="about">
+            <div class="glass" style="padding: 60px; text-align: center;">
+                <h2 class="section-title" style="font-size: 2rem; margin-bottom: 30px;" data-i18n="about_title">About
+                    Author & Research</h2>
+                <p style="max-width: 850px; margin: 0 auto 30px; font-size: 1.1rem;" data-i18n="about_p1">
+                    My name is <strong>Adiru (amazingb01)</strong>. This project is the result of a year of data
+                    collection and mechanics deconstruction. Any expansion of this list leads to patterning redundancy,
+                    and any exclusion leads to control deficit.
+                </p>
+                <div class="glass" style="display: inline-block; padding: 20px 40px; margin-bottom: 40px;">
+                    <p style="font-size: 0.9rem; color: var(--text-dim);" data-i18n="about_duration">Research duration:
+                        1+ Year</p>
+                </div>
+                <br>
+                <a href="https://adiru3.github.io/Donate/" class="donate-btn" data-i18n="donate_btn">Support
+                    Research</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">
+        <p data-i18n="footer_copy">&copy; 2026 Aim Spectrum Analytics. Research by Adiru.</p>
+        <p style="font-size: 0.8rem; color: var(--text-dim); margin-top: 10px;" data-i18n="footer_data">
+            All data derived from Source 2, Apex Momentum, and OW2 Inertia-free system analysis.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

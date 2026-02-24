@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adiru3.github.io/AimMastery/sitemap.xml
